@@ -1,0 +1,798 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: #fff;
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.7;
+    font-weight: normal;
+}
+
+/* Header start */
+.header {
+    width: 100%;
+    padding: 75px;
+    background-image: url('../images/hearder.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.heroBackground {
+    background-color: #fff;
+    border-radius: 25px;
+    padding: 40px;
+}
+
+.containerFluid {
+    width: 100%;
+    padding: 0 15px 0 15px;
+    margin: 0 auto 0 auto;
+}
+.container {
+    width: 90%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.logo {
+    width: 100%;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar ul {
+    padding-left: 0;
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+.navbar li {
+    margin-left: 20px;
+}
+
+.navs .active > .navItem a {
+    color: #fbca47;
+}
+
+.navItem a {
+    text-decoration: none;
+    color: #000;
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    display: block;
+    padding: 10px 0px;
+}
+nav a:hover,
+nav a:focus {
+  color: #fbca47;
+}
+.hamb {
+    display: none;
+    color: #000;
+    font-size: 20px;
+}
+#sideMenu {
+    display: none;
+}
+
+
+/* end header */
+
+/* banner */
+
+.banner {
+    padding: 60px 0 20px 0;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+.column {
+    flex-basis: 100%;
+    flex: 1;
+    padding: 0 15px;
+}
+._60 {
+    flex: 0.6;
+}
+._40 {
+    flex: 0.4;
+}
+.textBanner {
+    text-align: left;
+}
+
+.textBanner span {
+    color: #fbca47;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.textBanner h1 {
+    letter-spacing: 10px;
+    font-size: 52px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 80px;
+    color: #000;
+    margin: 0;
+    padding-bottom: 35px;
+}
+
+.textBanner p {
+    display: block;
+    font-size: 17px;
+    line-height: 30px;
+    color: #000;
+    margin: 0;
+    padding-bottom: 40px;
+}
+
+.readMore {
+    width: 100%;
+    max-width: 200px;
+    background-color: #17094c;
+    color: #fff;
+    display: block;
+    text-align: center;
+    padding: 15px 0;
+    text-transform: uppercase;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.bannerImage img {
+    width: 100%;
+}
+/* end banner */
+
+/* about */
+.about {
+    padding-top: 80px;
+}
+.aboutImg img{
+    width: 100%;
+}
+
+.aboutText {
+    text-align: left;
+}
+
+.aboutText span {
+    color: #fbca47;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 40px;
+    text-transform: uppercase;
+    display: block;
+}
+
+.aboutText h2 {
+    font-size: 42px;
+    color: #000;
+    line-height: 40px;
+    font-weight: normal;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.aboutText p {
+    padding-top: 15px;
+    line-height: 35px;
+    display: inline-block;
+    font-size: 17px;
+    color: #000;
+}
+.about .readMore {
+    margin-top: 50px;
+}
+/* end about  */
+
+/* services  */
+.service {
+    background: url('../images/service.jpg');
+    background-position: center;
+    background-size: 100% 100%;
+    padding: 80px 0px 80px 0;
+    margin-top: 80px;
+}
+.serviceTitle {
+    padding-bottom: 60px;
+}
+.serviceTitle span{
+    color: #fbca47;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 50px;
+    text-transform: uppercase;
+    display: block;
+}
+
+.serviceTitle h2 {
+    font-size: 42px;
+    color: #fff;
+    line-height: 40px;
+    font-weight: normal;
+    margin: 0;
+    text-transform: uppercase;
+}
+.servicesCard .readMore {
+    margin: 0 auto;
+    border: 1px solid #fff;
+    text-transform: capitalize;
+}
+.servicesCard {
+    text-align: center;
+}
+.servicesCard h3 {
+    font-size: 30px;
+    line-height: 25px;
+    font-weight: 600;
+    padding: 30px 0 10px 0;
+}
+.servicesCard img{
+    max-width: 100%;
+    height: auto;
+}
+.servicesCard p {
+    font-size: 17px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+/* end services */
+
+/* bitcoin  */
+.bitcoin {
+    background: url('../images/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 70px;
+    text-align: center;
+}
+.bitcoinHeading {
+    width: 60%;
+    margin: 0 auto;
+}
+.bitcoinHeading span{
+    color: #fbca47;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 50px;
+    text-transform: uppercase;
+    display: block;
+}
+
+.bitcoinHeading h3 {
+    font-size: 42px;
+    color: #000;
+    line-height: 55px;
+    font-weight: normal;
+    margin: 0;
+    text-transform: uppercase;
+}
+.bitcoinImg {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+.bitcoinImg img{
+    max-width: 100%;
+}
+.bitcoinImg .readMore{
+    margin: 50px auto 0;
+}
+/* end bitcoin */
+
+/* wallet */
+.wallet {
+    padding-top: 70px;
+    text-align: center;
+}
+.waletHeading span{
+    color: #fbca47;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 55px;
+    text-transform: uppercase;
+    display: block;
+}
+
+.waletHeading h3 {
+    font-size: 42px;
+    color: #000;
+    line-height: 55px;
+    font-weight: normal;
+    margin: 0;
+    text-transform: uppercase;
+}
+.walletImg {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+.walletImg img {
+    width: 100%;
+    height: auto;
+}
+.walletImg .readMore {
+    margin: 50px auto 0;
+
+}
+/* end walet */
+
+/* subscribe */
+.subscriber {
+    background: url('../images/sub_bg.jpg');
+    background-size: 100% 100%;
+    padding: 200px 0;
+    margin-top: 80px;
+}
+.subscriberContent {
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+}
+.subscriberContent h3{
+    font-size: 36px;
+    line-height: 30px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    font-weight: 700;
+}
+.subscriberContent p {
+    font-size: 17px;
+    line-height: 30px;
+}
+.newsForm {
+    padding-top: 40px;
+}
+
+.newsForm .inputEmail {
+    border: 1px solid #fff;
+    height: 55px;
+    padding: 0px 50px;
+    border-radius: 30px 0 0 30px;
+    font-size: 17px;
+    width: 70%;
+}
+.newsForm .subscriberButton {
+    width: 30%;
+    font-size: 17px;
+    padding: 2px 0;
+    border-radius: 48px;
+    border: #fff solid 10px;
+    margin-left: -35px;
+    background: #fbca47;
+    color: #fff;
+    height: 55px;
+}
+/* end subscribe */
+
+/* testimonials */
+.testimonial {
+    padding-top: 70px;
+}
+.testimonialHeading {
+    text-align: center;
+    padding-bottom: 60px;
+}
+.testimonialHeading span{
+    color: #fbca47;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 55px;
+    text-transform: uppercase;
+    display: block;
+}
+.testimonialHeading h3{
+    font-size: 42px;
+    color: #000;
+    line-height: 55px;
+    font-weight: normal;
+    margin: 0;
+    text-transform: uppercase;
+}
+.testimonialsContent {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.testimonialsContent .testimonialImg {
+    width: 200px;
+    height: auto;
+    margin: 0 auto;
+}
+.testimonialsContent h3 {
+    border-bottom: 2px solid #fbca47;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 400;
+    padding: 20px 0 5px 0;
+    color: #000;
+    line-height: 25px;
+    display: inline-block;
+}
+.testimonialsContent p {
+    font-size: 17px;
+    color: #000;
+    line-height: 30px;
+    padding-top: 30px;
+}
+/* end testimonials */
+
+/* contact us  */
+.contact {
+    padding-top: 70px;
+}
+.contactHeading {
+    text-align: center;
+}
+.contactHeading h3{
+    font-size: 42px;
+    color: #000;
+    line-height: 55px;
+    font-weight: normal;
+    margin: 0;
+    text-transform: uppercase;
+}
+.contactHeading span{
+    font-size: 18px;
+    display: block;
+    color: #fbca47;
+    line-height: 55px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.contactForm {
+    padding-top: 60px;
+}
+.contactForm .contactFormInput {
+    width: 100%;
+    height: 55px;
+    border: 1px solid #ccc8da;
+    border-radius: 30px;
+    font-size: 18px;
+    padding: 0 30px;
+    margin-bottom: 30px;
+    color: #cecece;
+    font-weight: 400;
+}
+.contactForm .contactFormTextarea {
+    width: 100%;
+    border: 1px solid #ccc8da;
+    border-radius: 30px;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-bottom: 30px;
+    color: #cecece;
+    font-weight: 400;
+    height: 200px;
+    font-family: 'Roboto', sans-serif;
+}
+.contactForm .contactFormSubmit {
+    font-size: 17px;
+    text-transform: uppercase;
+    background-color: #fbca47;
+    padding: 15px 0;
+    border-radius: 40px;
+    margin-top: 40px;
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+    border: none;
+    color: #fff;
+    font-weight: 500;
+}
+.contact .map img{
+    width: 100%;
+    margin-top: 50px;
+}
+/* end contact us */
+.footer {
+    background-color: #17094c;
+    padding-top: 80px;
+    margin-top: 80px;
+}
+.footer .row {
+    align-items: normal;
+}
+.footer .logoFooter img{
+    width: 100%;
+    height: auto;
+    padding-bottom: 30px;
+}
+.footer .follow {
+    font-size: 17px;
+}
+.footer h3 {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 40px;
+    text-transform: uppercase;
+    margin: 0px 0 30px 0;
+}
+.footer ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.footer ul li {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+.footer ul li a {
+    line-height: 20px;
+    font-size: 17px;
+    text-decoration: none;
+    color: #FFF;
+}
+.footer ul li a i {
+    font-size: 16px;
+    padding-right: 10px;
+}
+
+
+.footer .instagramLink {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 40px;
+    text-transform: uppercase;
+    margin: 0px 0 30px 0;
+}
+.footer .socialIcons {
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+}
+.footer .socialIcons li {
+    height: 60px;
+    padding-right: 7px;
+}
+.footer .socialIcons {
+    margin-top: 10px;
+}
+.footer .socialIcons i {
+    padding: 0;
+}
+
+.footer .socialIcons a {
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    color: #17094c;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 100%;
+}
+.footer .locationIcons li{
+    font-size: 18px;
+    line-height: 30px;
+    color: #fff;
+} 
+.footer .locationIcons li a {
+    color: #fff;
+    line-height: 30px;
+    padding-right: 16px;
+    display: flex;
+    align-items: center;
+}
+.footer .locationIcons li a i {
+    font-size: 30px;
+}
+.footer .copyright {
+    margin-top: 70px;
+    padding: 0 0 20px 0;
+}
+.footer .copyright p {
+    color: #fff;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    padding-top: 25px;
+    border-top: #301e64 solid 1px;
+}
+@media screen and (max-width: 575px) {
+    .row {
+        display: block;
+    }
+    .column {
+        margin-bottom: 40px;
+    }
+    /* header */
+    .header {
+        padding: 15px;
+    }
+    .heroBackground {
+        padding: 20px 0 0 0;
+    }
+    .banner {
+        padding: 50px 0px 15px 0px;
+    }
+    .textBanner h1{
+        font-size: 32px;
+        line-height: 38px;
+        padding-bottom: 25px;
+    }
+    .textBanner span {
+        font-size: 20px;
+        line-height: 40px;
+    }
+    .header .column {
+        padding: 0%;
+    }
+    .bannerImage {
+        margin-top: 20px;
+    }
+    .navbar {
+        display: none;
+    }
+    /* end header */
+    
+    /* about */
+    .aboutText span {
+        line-height: 20px;
+    }
+    .aboutText h2 {
+        font-size: 20px;
+        font-weight: 400;
+    }
+    /* end about */
+    /* services */
+    .serviceTitle {
+        padding-bottom: 30px;
+    }
+    .serviceTitle span {
+        line-height: 20px;
+    }
+    .serviceTitle h2  {
+        font-size: 20px;
+    }
+    .bitcoinHeading {
+        width: 100%;
+    }
+    .bitcoinHeading h3, .waletHeading h3, .testimonialHeading h3, .contactHeading h3 {
+        line-height: 25px;
+        font-size: 20px;
+    }
+    /* end services */
+    .bitcoinImg, .walletImg, .subscriberContent, .testimonialsContent{
+        width: 100%;
+        height: auto;
+    }
+    .subscriberContent h3 {
+        font-size: 26px;
+        line-height: 30px;
+    }
+    .newsForm .inputEmail {
+        width: 100%;
+        border-radius: 30px;
+    }
+    .newsForm .subscriberButton {
+        width: 50%;
+        margin: 15px 0 0 0;
+    }
+    
+}
+
+@media (min-width: 575px) and (max-width:767px) {
+    /* header */
+    .header {
+        padding: 20px;
+    }
+    .heroBackground {
+        padding: 25px;
+    }
+    .banner {
+        padding: 30px 0px 30px 0px;
+    }
+    .textBanner h1{
+        font-size: 52px;
+    }
+    .textBanner span {
+        font-size: 33px;
+    }
+    .navbar {
+        display: none;
+    }
+    .row {
+        display: block;
+    }
+    .service .row {
+        display: flex;
+        gap: 0;
+    }
+    .service .column {
+        margin-bottom: 30px;
+        flex: 0 0 50%;
+    }
+    .bannerImage {
+        margin-top: 20px;
+    }
+    /* end header */
+    
+    .bitcoinImg, .bitcoinHeading, .walletImg, .subscriberContent, .testimonialsContent{
+        width: 100%;
+        height: auto;
+    }
+    /* about */
+    .aboutText h2 {
+        font-size: 27px;
+    }
+    /* end about */
+    .servicesCard h3 {
+        font-size: 30px !important  ;
+    }
+}
+
+@media (min-width:767px) and (max-width: 991px) {
+    .header {
+        padding: 40px;
+    }
+    .heroBackground {
+        padding: 30px;
+    }
+    .textBanner span {
+        font-size: 36px;
+        line-height: 20px;
+    }
+    .textBanner h1 {
+        font-size: 38px;
+        line-height: 60px;
+        padding-bottom: 30px;
+    }
+    .row {
+        display: block;
+    }
+    .column {
+        margin-bottom: 30px;
+    }
+    .service .row {
+        display: flex;
+        gap: 0;
+    }
+    .servicesCard h3 {
+        font-size: 20px;
+    }
+
+    .bitcoinImg, .bitcoinHeading, .walletImg, .subscriberContent, .testimonialsContent{
+        width: 100%;
+        height: auto;
+    }
+    .footer .row {
+        display: flex;
+        gap: 0;
+    }
+    .footer .column {
+        margin-bottom: 30px;
+        flex: 0 0 50%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .navItem a {
+        font-size: 14px;
+    }    
+}
+
+@media screen and (max-width: 1200) {
+
+}
+@media screen and (max-width: 1440px){
+    
+}
